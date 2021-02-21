@@ -5,7 +5,7 @@ export const MainSection = () => {
     return (
         <div className='main-container'>
             <video className='main-video' 
-            src='https://assets.mixkit.co/videos/preview/mixkit-silhouette-of-woman-stretching-her-arms-780-large.mp4' 
+            src='https://assets.mixkit.co/videos/preview/mixkit-bodybuilder-moving-ropes-with-effort-13116-large.mp4' 
             autoPlay loop muted></video>
             <div className='main-textbox'>
                 <h1 className='main-headline'>Train Insane or Remain the Same</h1>
