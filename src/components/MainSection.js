@@ -4,6 +4,9 @@ import { Button } from 'antd';
 export const MainSection = () => {
     return (
         <div className='main-container'>
+            <video className='main-video' 
+            src='https://assets.mixkit.co/videos/preview/mixkit-young-man-hitting-the-punching-bag-at-a-gym-23263-large.mp4' 
+            autoPlay loop muted></video>
             <div className='main-textbox'>
                 <h1 className='main-headline'>Train Insane or Remain the Same</h1>
                 <div className='main-line'></div>
