@@ -1,0 +1,46 @@
+.footer-container {
+background-color:#f98817;
+height: 130px;
+display: flex;
+align-items: center;
+font-size: 15px;
+position: relative;
+}
+
+.free-button {
+    color: white;
+    top: 220px;
+    right: 26px;
+    border: 6px;
+    border-radius: 14px;
+    background-color:#f34300;
+    height: 27px;
+    width: 60px;
+    }
+
+.footer-free-headline{
+    color: white;
+    font-size: 13px;
+    top: 15px;
+}    
+
+.footer-freetrial{
+    position: absolute;
+    left: 970px;
+}
+
+.footer-input{
+    width: 200px;
+}
+
+.footer-intro {
+    color:white;
+    font-size: 13px;
+    position: absolute;
+    width: 410px;
+    word-break: keep-all;
+    text-align: justify;
+    top: 30px;
+    left: 40px;
+    line-height: 1.3;
+}
