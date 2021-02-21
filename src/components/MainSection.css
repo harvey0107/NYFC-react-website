@@ -17,15 +17,38 @@ position: relative;
 .main-headline {
     color: #f98817;
     text-shadow: 2px -2px #f34300;
-    font-size: 40px;
+    font-size: 50px;
     margin-left: 10px;
     height: 60px;
     position: absolute;
+    width: 200px;
+    word-break: keep-all;
+    right: 240px;
+    top: 50px;
+    line-height: 1.2;
+    -webkit-text-stroke-color:black;
+    -webkit-text-stroke-width: .1px;
+    
+}
+
+.main-line {
+    border-left: 1px solid white;
+    position: absolute;
+    height: 250px;
+    display: block;
+    left: -230px;
+    top: 45px;
 }
 
 .main-intro {
     color:white;
-    font-size: 11px;
+    font-size: 12px;
     position: absolute;
+    width: 200px;
+    word-break: keep-all;
+    text-align: center;
+    top: 60px;
+    right: 1px;
+    line-height: 1.4;
 }
 
