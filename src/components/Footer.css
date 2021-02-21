@@ -35,12 +35,12 @@ position: relative;
 
 .footer-intro {
     color:white;
-    font-size: 13px;
+    font-size: 11px;
     position: absolute;
-    width: 410px;
+    width: 350px;
     word-break: keep-all;
     text-align: justify;
-    top: 30px;
+    top: 40px;
     left: 40px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
