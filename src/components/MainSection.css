@@ -22,11 +22,11 @@ position: relative;
     margin-left: 10px;
     height: 60px;
     position: absolute;
-    width: 200px;
+    width: 252px;
     word-break: keep-all;
     right: 240px;
     top: 50px;
-    line-height: 1.2;
+    line-height: 1.5;
     -webkit-text-stroke-color:black;
     -webkit-text-stroke-width: .1px;
     
@@ -38,22 +38,30 @@ position: relative;
     height: 250px;
     display: block;
     left: -230px;
-    top: 45px;
+    top: 30px;
 }
 
 .main-intro {
     color:white;
-    font-size: 12px;
+    font-size: 13px;
     position: absolute;
     width: 200px;
     word-break: keep-all;
     text-align: center;
     top: 60px;
     right: 1px;
-    line-height: 1.4;
+    line-height: 1.3;
 }
 
 .main-button {
-color: #f34300;
-height: 30px;
+color: white;
+position: absolute;
+top: 220px;
+right: 26px;
+border: 6px;
+border-radius: 14px;
+background-color: #f34300;
+border-color: #f98817;
+height: 40px;
+width: 150px;
 }
