@@ -9,17 +9,19 @@ position: relative;
 
 .free-button {
     color: white;
-    top: 220px;
+    top: 18px;
     right: 26px;
     border: 6px;
     border-radius: 14px;
     background-color:#f34300;
-    height: 27px;
+    height: 25px;
     width: 60px;
+    position: absolute;
+    left: 200px;
     }
 
 .footer-free-headline{
-    color: white;
+    color:black;
     font-size: 13px;
     top: 15px;
 }    
@@ -34,7 +36,7 @@ position: relative;
 }
 
 .footer-intro {
-    color:white;
+    color:black;
     font-size: 11px;
     position: absolute;
     width: 350px;
@@ -47,13 +49,20 @@ position: relative;
 
 
 .footer-icon {
-    color:white;
+    color:black;
     font-size: 13px;
     position: absolute;
     width: 350px;
     word-break: keep-all;
     text-align: center;
-    top: 5px;
+    top: 1px;
     right: 410px;
     line-height: 1.2;
+}
+
+.footer-copyright{
+    color:black;
+    font-size: 11px;
+    left: 70px;
+    position: absolute;
 }

@@ -17,7 +17,7 @@ function Footer() {
                     <i className="fab fa-linkedin"></i>
                     <i className="fab fa-twitter-square"></i>
                     <p calssName='footer-number'>1-212-123-4567</p>
-                    <p calssName='footer-copyright'>Copyright © 2021 by NYFC, Inc.</p>
+                    
                 </div>
                 <p className='footer-free-headline'>
                     Try us out! Enter your email for a free trial.
@@ -29,7 +29,9 @@ function Footer() {
                         name='email' 
                         placeholder='Yor Email Here' />
                         <Button type="primary" className='free-button'>Go</Button>
+                        
                     </form>
+                    <p className='footer-copyright'>Copyright © 2021 by NYFC, Inc.</p>
                 </div>
             </section>
         </div>
