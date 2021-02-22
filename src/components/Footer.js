@@ -10,6 +10,15 @@ function Footer() {
                 and delivering the most personalized fitness experiences possible.
                 </p>
             <section className='footer-freetrial'>
+                <div className='footer-icon'>
+                    <p calssName='footer-contact'>Follow Us</p>
+                    <i className="fab fa-facebook-square"></i>
+                    <i className="fab fa-instagram"></i>
+                    <i className="fab fa-linkedin"></i>
+                    <i className="fab fa-twitter-square"></i>
+                    <p calssName='footer-number'>1-212-123-4567</p>
+                    <p calssName='footer-copyright'>Copyright © 2021 by NYFC, Inc.</p>
+                </div>
                 <p className='footer-free-headline'>
                     Try us out! Enter your email for a free trial.
                 </p>

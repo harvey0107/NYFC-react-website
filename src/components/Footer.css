@@ -44,3 +44,16 @@ position: relative;
     left: 40px;
     line-height: 1.2;
 }
+
+
+.footer-icon {
+    color:white;
+    font-size: 13px;
+    position: absolute;
+    width: 350px;
+    word-break: keep-all;
+    text-align: center;
+    top: 5px;
+    right: 410px;
+    line-height: 1.2;
+}

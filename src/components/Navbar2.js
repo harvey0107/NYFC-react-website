@@ -1,4 +1,3 @@
-import Item from 'antd/lib/list/Item'
 import React, { Component } from 'react'
 import {MenuItems} from './Menultems'
 import './Navbar2.css'
