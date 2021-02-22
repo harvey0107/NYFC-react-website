@@ -1,5 +1,5 @@
 .about-container {
-    background: url('/src/images/main.jpg') center center/cover no-repeat;
+    background: url('/src/images/about.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -9,23 +9,23 @@
     top: 50px;
 }
 
-.main-textbox {
+.about-textbox {
 background-color:aliceblue;
 height:max-content;
 position: relative;
 
 }
-.main-headline {
+.about-headline {
     color: #f98817;
     text-shadow: 2px -2px #f34300;
-    font-size: 50px;
+    font-size: 65px;
     margin-left: 10px;
     height: 60px;
     position: absolute;
-    width: 252px;
+    width: 260px;
     word-break: keep-all;
-    right: 240px;
-    top: 50px;
+    right: 70px;
+    top: 90px;
     line-height: 1.5;
     -webkit-text-stroke-color:black;
     -webkit-text-stroke-width: .1px;
@@ -33,15 +33,27 @@ position: relative;
 }
 
 .about-intro {
-    color:white;
-    font-size: 13px;
-    position: absolute;
-    width: 200px;
+    position: relative;
     word-break: keep-all;
-    text-align: center;
     top: 67px;
     right: 1px;
     line-height: 1.3;
+    align-items:center;
+   
 }
 
+.about-text{
+    color:#f98817;
+    font-size: 20px;
+    text-align:center;
+    position: absolute;
+    top: 100px;
+    right:-320px;
+    width: 600px;
+    height: 210px;
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 14px;
+    padding: 15px;
+    
+}
 
