@@ -7,7 +7,6 @@ import Navbar2 from '../Navbar2';
 function Home () {
     return(
         <>
-        <Navbar2 />
         <MainSection />
         <Footer />
         </>

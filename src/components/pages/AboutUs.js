@@ -6,7 +6,6 @@ import AboutSection from '../AboutSection'
 function AboutUs() {
     return (
         <>
-            <Navbar2 />
             <AboutSection />
             <Footer />
         </>
