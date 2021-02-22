@@ -1,16 +1,15 @@
 import React from 'react'
 import Footer from '../Footer'
-import AboutSection from '../AboutSection'
+import ContactSection from '../ContactSection'
 
-function AboutUs() {
+function Contact() {
     return (
         <>
-            <AboutSection />
+            <ContactSection />
             <Footer />
         </>
     )
 }
 
 
-export default AboutUs
-
+export default Contact

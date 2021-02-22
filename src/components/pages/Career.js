@@ -1,16 +1,15 @@
 import React from 'react'
 import Footer from '../Footer'
-import AboutSection from '../AboutSection'
+import CareerSection from '../CareerSection'
 
-function AboutUs() {
+function Career() {
     return (
         <>
-            <AboutSection />
+            <CareerSection />
             <Footer />
         </>
     )
 }
 
 
-export default AboutUs
-
+export default Career
