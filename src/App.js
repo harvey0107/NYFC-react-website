@@ -6,6 +6,7 @@ import Home from './components/pages/Home'
 import AboutUs from './components/pages/AboutUs';
 import Career from './components/pages/Career';
 import Contact from './components/pages/Contact';
+import Exercises from './components/pages/Exercises';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <AboutUs />
         </Route>
         <Route exact path='/exercises'>
+          <Exercises />
         </Route>
         <Route exact path='/contact'>
           <Contact />

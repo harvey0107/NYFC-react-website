@@ -2,11 +2,11 @@ import React from 'react'
 import'./ContactSection.css'
 export const ContactSection = () => {
     return (
-        <div className='contact-container tc'>
-            <div className='contact-textbox tc'>
+        <div className='contact-container'>
+            <div className='contact-textbox'>
                 <h1 className='contact-headline'>Contact</h1>
-                <div className='contact-intro '>
-                    <p className='contact-text ' >
+                <div className='contact-intro'>
+                    <p className='contact-text' >
                     How can we help? Ask the experts! 
                     Hours of Operation: 9AM to 5PM, 
                     Headquarters: 888.123.1123
