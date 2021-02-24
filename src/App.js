@@ -7,6 +7,8 @@ import AboutUs from './components/pages/AboutUs';
 import Career from './components/pages/Career';
 import Contact from './components/pages/Contact';
 import Exercises from './components/pages/Exercises';
+import UpperBody from './components/pages/UpperBody';
+import UpperData from './components/UpperData'
 
 function App() {
   return (
@@ -27,7 +29,10 @@ function App() {
           <Contact />
         </Route>
         <Route exact path='/career'>
-          <Career />
+          <Career />  
+        </Route>
+        <Route exact path='/upper'>
+          <UpperBody />
         </Route>
         </Switch>
       </Router>
