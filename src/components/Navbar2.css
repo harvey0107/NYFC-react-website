@@ -33,7 +33,7 @@ position: relative;
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    grid-gap: 1px;
+    grid-gap: 5px;
     list-style: none;
     text-align: center;
     width: 70vw;

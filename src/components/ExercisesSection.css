@@ -1,5 +1,6 @@
 .ex-container {
-    background: url('/src/images/main.jpg') center center/cover no-repeat;
+    background: url('https://images.unsplash.com/photo-1613330811054-d72947d0232d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1532&q=80') center center/cover no-repeat;
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,74 +8,6 @@
     height: 100vh;
     }
   
-  .ex-upper-lower-works-menu {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin:auto 100px;
-    }
   
-  .ex-menu-item1 {
-    min-width: 10%;
-    height: 300px;
-    flex: 1 1 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #f98817;
-    margin: 0 7.5px 15px;
-    background-color: rgba(255, 255, 255, 0.514);
-   
-    }
-
-    .ex-menu-item2 {
-        min-width: 10%;
-        height: 300px;
-        flex: 1 1 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid #f98817;
-        margin: 0 7.5px 15px;
-        background-color: rgba(255, 255, 255, 0.514);
-        }
-
   
-    .ex-content {
-
-      height: 40px;
-      padding: 0 25px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background-color: #f98817;
-      border-radius: 14px;
-    }
   
-    .ex-title {
-        font-weight: bold;
-        margin-bottom: 6px;
-        font-size: 22px;
-        color:white;
-        border-radius: 14px;
-      }
-  
-      .ex-headline {
-        color: #f98817;
-        text-shadow: 2px -2px #f34300;
-        font-size: 65px;
-        margin-left: 10px;
-        height: 60px;
-        position: absolute;
-        width: 260px;
-        word-break: keep-all;
-        left: 70px;
-        top: 90px;
-        line-height: 1.5;
-        -webkit-text-stroke-color:black;
-        -webkit-text-stroke-width: .1px;
-        
-    }
-      
