@@ -1,5 +1,7 @@
 import React from 'react'
 import UpperData from './UpperData'
+import LisOfUpper from "./ListOfUpper";
+
 
 class UpperbodySection extends React.Component{
     constructor(props){
@@ -9,9 +11,14 @@ class UpperbodySection extends React.Component{
         } 
     }
     render() { 
-        return (
-            <div>Upper Body Workout</div>
-        )
+        const {collections} =this.state
+        return (<div className='upper-workout-page'>
+                {
+                    collections.map(({ id, ...otherProps}) => (
+                        <LisOfUpper key={id} {...otherProps} />
+                    ))
+                }
+            </div>)
     }
 }
 
