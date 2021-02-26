@@ -1,0 +1,18 @@
+.lower-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    height: 100vh
+}
+  
+    .lower-title {
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+  
+    .lower-work-each {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+  

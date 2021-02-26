@@ -7,20 +7,36 @@
     padding: 10px 80px;
     height: 100vh;
     }
-  
-  
-  
-    .ex-button {
-        font-weight: bold;
-        font-size: 20px;
-        color:#f98817;
-        border-radius: 10px;
-        border: slategray;
-      }
+  .ex-button {
+    font-weight: bold;
+    font-size: 14px;
+    color:#f98817;
+    border-radius: 10px;
+    border: slategray;
+    }
     
-      .ex-button:hover{
+    .ex-button:hover{
     box-shadow: 0 10px 20px white;
-    opacity: 0.7;
-    cursor: pointer;
+   cursor: pointer;
     }
   
+    .ex-headline {
+        color: #f98817;
+        text-shadow: 2px -2px #f34300;
+        font-size: 65px;
+        margin-left: 10px;
+        height: 60px;
+        position: absolute;
+        width: 260px;
+        word-break: keep-all;
+
+        left:200px;
+        top: 90px;
+        line-height: 1.5;
+        -webkit-text-stroke-color:black;
+        -webkit-text-stroke-width: .1px;
+        animation: moveInRight 3s ease-out;
+    }
+    
+    
+    
