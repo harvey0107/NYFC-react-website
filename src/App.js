@@ -8,7 +8,8 @@ import Career from './components/pages/Career';
 import Contact from './components/pages/Contact';
 import Exercises from './components/pages/Exercises';
 import UpperBody from './components/pages/UpperBody';
-import UpperData from './components/UpperData'
+import LowerBody from './components/pages/LowerBody';
+
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
         </Route>
         <Route exact path='/upper'>
           <UpperBody />
+        </Route>
+        <Route exact path='/lower'>
+          <LowerBody />
         </Route>
         </Switch>
       </Router>

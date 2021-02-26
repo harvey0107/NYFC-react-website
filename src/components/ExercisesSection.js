@@ -10,7 +10,9 @@ export const ExercisesSection = () => {
             <Link to='/upper'>
            <button className='ex-button'>Enter Upper</button>
            </Link>
+           <Link to='/lower'> 
             <button className='ex-button'>Enter Lower</button>
+            </Link>       
         </div>
     )
 }
