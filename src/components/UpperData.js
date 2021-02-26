@@ -7,19 +7,23 @@ export const UpperData= [
         {
           id: 1,
           name: 'Arnold press',
-          imageUrl: 'https://www.burnthefatinnercircle.com/members/images/1093.jpg'
+          imageUrl: 'http://www.burnthefatinnercircle.com/members/images/319.png',
         },
         {
           id: 2,
           name: 'Pullover',
-          imageUrl: 'https://www.burnthefatinnercircle.com/members/images/2001.png'
+          imageUrl: 'http://www.burnthefatinnercircle.com/members/images/319.png',
         },
         {
           id: 3,
           name: 'Floor chest fly',
-          imageUrl: 'http://www.burnthefatinnercircle.com/members/images/1581.jpg'
+          imageUrl: 'http://www.burnthefatinnercircle.com/members/images/319.png',
+        },
+        {
+          id: 4,
+          name: 'Bent-over row',
+          imageUrl: 'http://www.burnthefatinnercircle.com/members/images/319.png',
         }
-        
       ]
     }  
 ]

@@ -106,6 +106,7 @@ background-color: #f98817;
 height: 40px;
 width: 150px;
 animation: moveInUp 3s ease-out;
+cursor: pointer;
 }
 
 @keyframes moveInUp {

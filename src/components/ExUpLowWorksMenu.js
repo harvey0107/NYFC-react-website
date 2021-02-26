@@ -16,6 +16,7 @@ class ExUpLowWorksMenu extends React.Component {
              title:'Lower Body Workout',
              imgUrl:'https://static01.nyt.com/images/2017/03/13/well/move/NYT_StrengthTraining_Mountain-Climbers_Christine_Final/NYT_StrengthTraining_Mountain-Climbers_Christine_Final-blog480-v2.jpg',
              id: 2   
+             
             }]
         } 
     }
