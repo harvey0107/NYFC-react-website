@@ -1,6 +1,7 @@
 import React from 'react'
 import UpperData from './UpperData'
 import LisOfUpper from "./ListOfUpper";
+import './UpperbodySection.css'
 
 
 class UpperbodySection extends React.Component{

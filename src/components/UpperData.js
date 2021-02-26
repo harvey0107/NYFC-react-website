@@ -7,22 +7,12 @@ export const UpperData= [
         {
           id: 1,
           name: 'Arnold press',
-          imageUrl: 'http://www.burnthefatinnercircle.com/members/images/319.png',
+          imageUrl: 'https://keepfitkingdom.com/wp-content/uploads/2016/06/5-Top-Overhead-Press-Variations-Keep-Fit-Kingdom-770x472.jpg',
         },
         {
           id: 2,
-          name: 'Pullover',
-          imageUrl: 'http://www.burnthefatinnercircle.com/members/images/319.png',
-        },
-        {
-          id: 3,
-          name: 'Floor chest fly',
-          imageUrl: 'http://www.burnthefatinnercircle.com/members/images/319.png',
-        },
-        {
-          id: 4,
-          name: 'Bent-over row',
-          imageUrl: 'http://www.burnthefatinnercircle.com/members/images/319.png',
+          name: 'Bench Press',
+          imageUrl: 'https://cdn.muscleandstrength.com/sites/default/files/field/feature-image/article/strong-man-barbell-bench-press-800.jpg',
         }
       ]
     }  

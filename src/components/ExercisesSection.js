@@ -8,10 +8,10 @@ export const ExercisesSection = () => {
              <h1 className='ex-headline'>Exercises</h1>
            <ExUpLowWorksMenu />
             <Link to='/upper'>
-           <button className='ex-button'>Enter Upper</button>
+           <button className='ex-button'>Enter Upper Body Workout</button>
            </Link>
            <Link to='/lower'> 
-            <button className='ex-button'>Enter Lower</button>
+            <button className='ex-button'>Enter Lower Body Workout</button>
             </Link>       
         </div>
     )

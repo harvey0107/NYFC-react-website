@@ -9,15 +9,19 @@
     }
   .ex-button {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     color:#f98817;
-    border-radius: 10px;
-    border: slategray;
+    border-radius: 5px;
+    background-color: white;
+  border: #f98817 solid 1px;
     }
     
     .ex-button:hover{
     box-shadow: 0 10px 20px white;
    cursor: pointer;
+   border:none;
+   color:white;
+   background-color: #f98817;
     }
   
     .ex-headline {
@@ -29,7 +33,6 @@
         position: absolute;
         width: 260px;
         word-break: keep-all;
-
         left:200px;
         top: 90px;
         line-height: 1.5;

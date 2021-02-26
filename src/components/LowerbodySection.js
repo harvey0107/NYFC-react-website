@@ -1,6 +1,7 @@
 import React from 'react'
 import LowerData from './LowerData'
 import LisOfLower from "./ListOfLower";
+import './LowerbodySection.css'
 
 
 class LowerbodySection extends React.Component{

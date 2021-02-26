@@ -8,11 +8,13 @@
     .lower-title {
       font-size: 28px;
       margin-bottom: 25px;
+      color: #f98817;
     }
   
     .lower-work-each {
       display: flex;
       justify-content: space-between;
+      color: white;
     }
   
   
