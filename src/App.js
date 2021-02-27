@@ -9,7 +9,7 @@ import Contact from './components/pages/Contact';
 import Exercises from './components/pages/Exercises';
 import UpperBody from './components/pages/UpperBody';
 import LowerBody from './components/pages/LowerBody';
-
+import BenchPress from './components/pages/BenchPress';
 
 function App() {
   return (
@@ -37,6 +37,9 @@ function App() {
         </Route>
         <Route exact path='/lower'>
           <LowerBody />
+        </Route>
+        <Route exact path='/benchpress'>
+          <BenchPress />
         </Route>
         </Switch>
       </Router>
