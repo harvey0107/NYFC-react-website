@@ -32,13 +32,13 @@ function App() {
         <Route exact path='/career'>
           <Career />  
         </Route>
-        <Route exact path='/upper'>
+        <Route exact path='/exercises/upper'>
           <UpperBody />
         </Route>
-        <Route exact path='/lower'>
+        <Route exact path='/exercises/lower'>
           <LowerBody />
         </Route>
-        <Route exact path='/benchpress'>
+        <Route exact path='/exercises/upper/benchpress'>
           <BenchPress />
         </Route>
         </Switch>

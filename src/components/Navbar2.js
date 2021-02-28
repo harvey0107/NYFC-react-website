@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
+
 import {MenuItems} from './Menultems'
+
 import './Navbar2.css'
 
 class Navbar2 extends Component{
@@ -10,8 +13,10 @@ class Navbar2 extends Component{
     render(){
         return(
             <nav className='NavbarItem'>
-                <i className="fas fa-dumbbell"></i>
-                <h1 className='navbar-logo'>NYFC</h1>
+                <Link to='/'>
+                    <i className="fas fa-dumbbell"></i>
+                    <h1 className='navbar-logo'>NYFC</h1>
+                </Link>
                 <div className='menu-icon' onClick={this.handleClick}>
                     <i className={this.state.clicked? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>

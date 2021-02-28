@@ -10,13 +10,14 @@ class ExUpLowWorksMenu extends React.Component {
             sections: [{
                 title:'Upper Body Workout',
                 imgUrl:'https://static01.nyt.com/images/2017/03/13/well/move/NYT_Strength-training_Bodyweight-Squat_Christine_Final/NYT_Strength-training_Bodyweight-Squat_Christine_Final-blog480-v2.jpg',
-                id: 1
+                id: 1,
+                linkUrl: '/exercises/upper',
             },
             {
-             title:'Lower Body Workout',
-             imgUrl:'https://static01.nyt.com/images/2017/03/13/well/move/NYT_StrengthTraining_Mountain-Climbers_Christine_Final/NYT_StrengthTraining_Mountain-Climbers_Christine_Final-blog480-v2.jpg',
-             id: 2   
-             
+                title:'Lower Body Workout',
+                imgUrl:'https://static01.nyt.com/images/2017/03/13/well/move/NYT_StrengthTraining_Mountain-Climbers_Christine_Final/NYT_StrengthTraining_Mountain-Climbers_Christine_Final-blog480-v2.jpg',
+                id: 2,
+                linkUrl: '/exercises/lower',
             }]
         } 
     }
@@ -24,8 +25,8 @@ class ExUpLowWorksMenu extends React.Component {
         return (
             <div className='ex-upper-lower-works-menu'>
                 {
-                this.state.sections.map(({title , imgUrl , id}) => (
-                    <ExmenuItem key = {id} title = {title} imgUrl={imgUrl}/>
+                this.state.sections.map(({title , imgUrl , id, linkUrl}) => (
+                    <ExmenuItem key = {id} title = {title} imgUrl={imgUrl} linkUrl={linkUrl} />
                 ))
                 }       
             </div>

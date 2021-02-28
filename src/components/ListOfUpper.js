@@ -1,6 +1,7 @@
 import React from "react";
-import './ListOfUpper.css';
 import EveryUpperItem from "./EveryUpperItem";
+
+import './ListOfUpper.css';
 
 const ListOfUpper = ({ title, workouts }) =>(
     <div className='upper-list'>
@@ -10,7 +11,7 @@ const ListOfUpper = ({ title, workouts }) =>(
             
             {
                 workouts.map(({ id, ...otherworkoutprops })=>(
-                    <EveryUpperItem key={ id } { ...otherworkoutprops } />
+                    <EveryUpperItem key={id} { ...otherworkoutprops } />
                 ))}
         </div>
     </div>

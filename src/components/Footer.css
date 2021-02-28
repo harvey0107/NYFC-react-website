@@ -1,11 +1,47 @@
 .footer-container {
-background-color:#f98817;
-height: 130px;
-display: flex;
-align-items: center;
-font-size: 15px;
-position: relative;
+    background-color: #f98817;
+    height: fit-content;
+    align-items: center;
+    font-size: 15px;
+    position: relative;
+    max-height: 200px;
 }
+
+.footer-container-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+/* Sections */
+.footer-container-content .footer-intro-section {
+    color:black;
+    font-size: 11px;
+    /* position: absolute; */
+    /* width: 350px; */
+    width: 33%;
+    word-break: keep-all;
+    text-align: justify;
+    top: 40px;
+    left: 40px;
+    line-height: 1.2;
+    padding: 0 2rem;
+}
+
+.footer-container-content .footer-freetrial-section {
+    /* position: absolute; */
+    /* left: 970px; */
+    width: 33%;
+    text-align: center;
+}
+
+.footer-icon-section {
+    width: 33%;
+}
+
+/* End section */
 
 .free-button {
     color: white;
@@ -16,7 +52,7 @@ position: relative;
     background-color:#f34300;
     height: 25px;
     width: 60px;
-    position: absolute;
+    /* position: absolute; */
     left: 200px;
     }
 
@@ -26,32 +62,14 @@ position: relative;
     top: 15px;
 }    
 
-.footer-freetrial{
-    position: absolute;
-    left: 970px;
-}
-
 .footer-input{
     width: 200px;
-}
-
-.footer-intro {
-    color:black;
-    font-size: 11px;
-    position: absolute;
-    width: 350px;
-    word-break: keep-all;
-    text-align: justify;
-    top: 40px;
-    left: 40px;
-    line-height: 1.2;
 }
 
 
 .footer-icon {
     color:black;
     font-size: 13px;
-    position: absolute;
     width: 350px;
     word-break: keep-all;
     text-align: center;
@@ -63,6 +81,5 @@ position: relative;
 .footer-copyright{
     color:black;
     font-size: 11px;
-    left: 70px;
-    position: absolute;
+    text-align: center;
 }

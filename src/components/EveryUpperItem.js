@@ -1,7 +1,10 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 import './EveryUpperItem.css';
 
-const EveryUpperItem = ({id, name, imageUrl}) => (
+const EveryUpperItem = ({name, imageUrl, linkUrl}) => (
+    <Link to={linkUrl}>
     <div className='upper-item'>
         <div className ='image' 
             style={{
@@ -11,6 +14,7 @@ const EveryUpperItem = ({id, name, imageUrl}) => (
             <span className='name'>{name}</span>
             
     </div>
+    </Link>
 )
 
 export default EveryUpperItem
