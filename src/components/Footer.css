@@ -4,7 +4,7 @@
     align-items: center;
     font-size: 15px;
     position: relative;
-    max-height: 200px;
+    /* max-height: 200px; */
 }
 
 .footer-container-content {
@@ -39,6 +39,7 @@
 
 .footer-icon-section {
     width: 33%;
+    text-align: center;
 }
 
 /* End section */
@@ -82,4 +83,22 @@
     color:black;
     font-size: 11px;
     text-align: center;
+}
+
+
+@media screen and (max-width: 760px) {
+    .footer-container-content .footer-intro-section {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer-container-content .footer-icon-section {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer-container-content .footer-freetrial-section {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
 }
