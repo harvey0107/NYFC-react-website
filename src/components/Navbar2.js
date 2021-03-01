@@ -5,11 +5,12 @@ import {MenuItems} from './Menultems'
 
 import './Navbar2.css'
 
+// functional component
 const DesktopNav = () => {
     return (
         <nav className='NavbarItem'>
             <Link to='/'>
-                <i className="fas fa-dumbbell"></i>
+                <i className="fas fa-dumbbell" />
                 <h1 className='navbar-logo'>NYFC</h1>
             </Link>
             {MenuItems.map((item, index) => {
@@ -24,6 +25,9 @@ const DesktopNav = () => {
     )
 }
 
+
+// class base component
+// store state
 class MobileNav extends Component {
     state = {
         clicked: false,
@@ -35,30 +39,50 @@ class MobileNav extends Component {
        
     render () {
         return (
-            <div className="navbar-item">
-                <div className='menu-icon' onClick={this.handleClick}>
-                    <i className={this.state.clicked? 'fas fa-times' : 'fas fa-bars'}></i>
+            <div>
+                <div className="navbar-item">
+                    <div className='menu-icon' onClick={this.handleClick}>
+                        <i className={this.state.clicked? 'fas fa-times' : 'fas fa-bars'} />
+                    </div>
                 </div>
+                {this.state.clicked && (
+                    <ul className="nav-menu">
+                        {MenuItems.map((item, index) => {
+                            return(
+                                <li key={index}>
+                                    <a className={item.cName} href={item.url}>
+                                    {item.title}</a>
+                                </li>
+                            )
+                        })}  
+                    </ul>
+                )}
             </div>
         )
     }
 }
 
-class Navbar2 extends Component{
-    state ={
-        clicked: false,
-        windowWidth: 0,
-    }
-    handleClick=()=>{
-        this.setState({clicked: !this.state.clicked})
+// navbar wrapper, conditional render desktop or mobile nav base on window width
+class Navbar2 extends Component {
+    state = {
+        windowWidth: null, 
     }
 
-    // event listener, resize event
+    componentDidMount () {
+        console.log(window.innerWidth);
+        this.setState({windowWidth : window.innerWidth});
+        window.addEventListener("resize", this.onResize.bind(this));
+    }
 
-    // check widow width, set state
+    onResize() {
+        console.log('on resize: ', window.innerWidth);
+        this.setState({windowWidth: window.innerWidth});
+    }
 
-    // component did mount, check window width
-
+    componentWillUnmount () {
+        window.removeEventListener("resize", this.onResize.bind(this));
+    }
+    
     render(){ 
         return(
            <>
@@ -68,7 +92,4 @@ class Navbar2 extends Component{
     }
 }
 
-
-
-
-export default Navbar2
+export default Navbar2;

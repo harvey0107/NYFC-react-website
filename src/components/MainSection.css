@@ -18,11 +18,17 @@
 }
 
 .main-textbox {
-background-color:aliceblue;
-height:max-content;
-position: relative;
-
+    background-color:aliceblue;
+    height:max-content;
+    position: relative;
 }
+
+@media screen and (max-width: 760px) {
+    .main-textbox {
+        width: 60%;
+    }
+}
+
 .main-headline {
     color: #f98817;
     text-shadow: 2px -2px #f34300;

@@ -65,7 +65,7 @@ position: relative;
         position: relative;
     }
 }
-/*
+
 .nav-menu {
     display: flex;
     flex-direction: column;
@@ -73,18 +73,16 @@ position: relative;
     height: 500px;
     position: absolute;
     top: 80px;
-    left: -100%;
-    opacity: 1;
-    transition: all 0.5s ease;
+    background-color:#f98817;
+    z-index: 50; /* -1, 0, 1, 10, 20, 50, 999*/
 } 
-*/
+
 
 .nav-menu.active {
     background-color:#f98817;
     left:0;
     opacity: 1;
     transition: all 0.5 ease;
-    z-index: 1;
 }
 
 .nav-links {
@@ -114,4 +112,10 @@ display: table;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+}
+
+
+/* MOBILE NAV STYLES */
+.mobile-nav-items {
+    list-style: none;
 }
