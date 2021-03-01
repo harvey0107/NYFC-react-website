@@ -1,9 +1,10 @@
 .upper-item {
-    width: 22%;
+    width: 350px;
     display: flex;
     flex-direction: column;
     height: 350px;
     align-items: center;
+    border-radius: 14px;
 }
   
     .image {
@@ -12,6 +13,7 @@
       background-size: cover;
       background-position: center;
       margin-bottom: 5px;
+      border-radius: 14px;
     }
   
     .upper-footer {
@@ -25,6 +27,12 @@
       .name {
         width: 90%;
         margin-bottom: 15px;
+        color: white;
+        text-decoration: underline none;
+        text-align: center;
+      }
+      .name:hover{
+        color: #f98817;
       }
   
     

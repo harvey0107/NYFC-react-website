@@ -6,14 +6,15 @@
 }
   
     .upper-title {
-      font-size: 28px;
+      font-size: 40px;
       margin-bottom: 25px;
       color: #f98817;
+      text-align: center
     }
   
     .upper-work-each {
       display: flex;
-      justify-content: space-between;
+      justify-content:space-evenly;
       color: white;
     }
   

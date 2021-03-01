@@ -8,7 +8,7 @@ import './Navbar2.css'
 // functional component
 const DesktopNav = () => {
     return (
-        <nav className='NavbarItem'>
+        <nav className='navbarItem'>
             <Link to='/'>
                 <i className="fas fa-dumbbell" />
                 <h1 className='navbar-logo'>NYFC</h1>
