@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/NYFC-react-website/static/css/main.b6773324.chunk.css",
+    "main.js": "/NYFC-react-website/static/js/main.55eab11f.chunk.js",
+    "main.js.map": "/NYFC-react-website/static/js/main.55eab11f.chunk.js.map",
+    "runtime-main.js": "/NYFC-react-website/static/js/runtime-main.df1aae4e.js",
+    "runtime-main.js.map": "/NYFC-react-website/static/js/runtime-main.df1aae4e.js.map",
+    "static/js/2.33056b3d.chunk.js": "/NYFC-react-website/static/js/2.33056b3d.chunk.js",
+    "static/js/2.33056b3d.chunk.js.map": "/NYFC-react-website/static/js/2.33056b3d.chunk.js.map",
+    "index.html": "/NYFC-react-website/index.html",
+    "static/css/main.b6773324.chunk.css.map": "/NYFC-react-website/static/css/main.b6773324.chunk.css.map",
+    "static/js/2.33056b3d.chunk.js.LICENSE.txt": "/NYFC-react-website/static/js/2.33056b3d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df1aae4e.js",
+    "static/js/2.33056b3d.chunk.js",
+    "static/css/main.b6773324.chunk.css",
+    "static/js/main.55eab11f.chunk.js"
+  ]
+}
