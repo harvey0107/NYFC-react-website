@@ -7,7 +7,7 @@ import './ExmenuItem.css'
 const ExmenuItem =({ title , imgUrl, linkUrl}) =>(
     <>
         {linkUrl ? (
-            <Link to={linkUrl}>
+            <Link to={linkUrl} style={{ textDecoration: 'none' }}>
                 <div style={{
                     backgroundImage: `url(${imgUrl})`
                 }}className='ex-menu-item'>

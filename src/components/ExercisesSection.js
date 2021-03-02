@@ -1,7 +1,6 @@
 import React from 'react'
 import'./ExercisesSection.css'
 import ExUpLowWorksMenu from './ExUpLowWorksMenu'
-import {Link} from 'react-router-dom'
 export const ExercisesSection = () => {
     return (
         <div className='ex-container'>

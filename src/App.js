@@ -10,6 +10,9 @@ import Exercises from './components/pages/Exercises';
 import UpperBody from './components/pages/UpperBody';
 import LowerBody from './components/pages/LowerBody';
 import BenchPress from './components/pages/BenchPress';
+import ArnoldPress from './components/pages/ArnoldPress';
+import Squat from './components/pages/Squat';
+import LegPress from './components/pages/LegPress';
 
 function App() {
   return (
@@ -40,6 +43,15 @@ function App() {
         </Route>
         <Route exact path='/exercises/upper/benchpress'>
           <BenchPress />
+        </Route>
+        <Route exact path='/exercises/upper/arnoldpress'>
+          <ArnoldPress />
+        </Route>
+        <Route exact path='/exercises/lower/squat'>
+          <Squat />
+        </Route>
+        <Route exact path='/exercises/lower/legpress'>
+          <LegPress />
         </Route>
         </Switch>
       </Router>

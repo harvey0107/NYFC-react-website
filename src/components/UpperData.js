@@ -8,7 +8,7 @@ export const UpperData= [
           id: 1,
           name: 'Arnold press',
           imageUrl: 'https://keepfitkingdom.com/wp-content/uploads/2016/06/5-Top-Overhead-Press-Variations-Keep-Fit-Kingdom-770x472.jpg',
-          linkUrl: '',
+          linkUrl: '/exercises/upper/arnoldpress',
         },
         {
           id: 2,
