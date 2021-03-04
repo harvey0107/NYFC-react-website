@@ -9,12 +9,10 @@ export const LegPressSection = () => {
                 
                 <div className='leg-intro'>
                     <ol className='leg-text'>
-                        <li>Lie flat on your back on a bench.</li>
-                        <li>Grip the bar with hands just wider than shoulder-width apart, 
-                            so when you’re at the bottom of your move your hands are directly above your elbows.</li>
-                        <li>Bring the bar slowly down to your chest as you breathe in.</li>
-                        <li>Push up as you breathe out, gripping the bar hard and watching a spot on the ceiling rather than the bar, 
-                            so you can ensure it travels the same path every time.</li>
+                        <li>Choose the appropriate weight and set the seat so that the knees are bent just over right angles.</li>
+                        <li>Position feet about shoulder width apart.</li>
+                        <li>Try to push through your heels, keeping the knees lined up over the toes.</li>
+                        <li>Extend the legs until nearly straight, avoiding locking the knees.</li>
                     </ol>
                 </div>
             </div>

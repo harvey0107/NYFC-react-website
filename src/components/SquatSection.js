@@ -9,12 +9,11 @@ export const SquatSection = () => {
                 
                 <div className='squat-intro'>
                     <ol className='squat-text'>
-                        <li>Lie flat on your back on a bench.</li>
-                        <li>Grip the bar with hands just wider than shoulder-width apart, 
-                            so when you’re at the bottom of your move your hands are directly above your elbows.</li>
-                        <li>Bring the bar slowly down to your chest as you breathe in.</li>
-                        <li>Push up as you breathe out, gripping the bar hard and watching a spot on the ceiling rather than the bar, 
-                            so you can ensure it travels the same path every time.</li>
+                        <li>Stand with feet a little wider than hip width, toes facing front.</li>
+                        <li>Drive your hips back—bending at the knees and ankles and pressing your knees slightly open—as you…</li>
+                        <li>Sit into a squat position while still keeping your heels and toes on the ground, chest up and shoulders back.</li>
+                        <li>Strive to eventually reach parallel, meaning knees are bent to a 90-degree angle.</li>
+                        <li>Return to a standing upright position.</li>
                     </ol>
                 </div>
             </div>
