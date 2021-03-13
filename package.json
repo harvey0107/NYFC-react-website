@@ -2,7 +2,6 @@
   "name": "nyfcwebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://harvey0107.github.io/NYFC-react-website/",
   "dependencies": {
     "@ant-design/icons": "^4.5.0",
     "@testing-library/jest-dom": "^5.11.9",
